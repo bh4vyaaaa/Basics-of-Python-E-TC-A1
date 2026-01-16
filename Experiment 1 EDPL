@@ -1,0 +1,45 @@
+Experiment–1
+Bhavya Pandya
+25070123139
+EDP Lab 
+E&TC A1
+Title
+Introduction to Python Programming and Installation of Jupyter Notebook Using Anaconda
+________________________________________
+Aim
+To study the basics of Python programming language, understand the Python execution environment, install Python and Jupyter Notebook using Anaconda distribution, and explore various Python IDEs including Google Colab.
+________________________________________
+
+2. Objectives
+•	Conceptual Mastery: To analyze the core features, design philosophy, and diverse industry applications of Python.
+•	Environment Configuration: To successfully deploy the Anaconda Distribution and initialize the Jupyter Notebook environment on a local machine.
+•	IDE Exploration: To evaluate the strengths and weaknesses of different development environments (Local vs. Cloud-based).
+•	Practical Implementation: To develop and execute foundational Python scripts to verify the integrity of the installed environment.
+
+________________________________________
+3. Theory
+
+I. The Evolution and Philosophy of Python
+Python, created by Guido van Rossum and released in 1991, has evolved into one of the most dominant languages in modern computing. It is defined by its readability and efficiency.
+Key technical characteristics include:
+•	Interpreted Language: Python code is executed line-by-line by an interpreter, which simplifies debugging and eliminates the need for a separate compilation step.
+•	High-Level Abstraction: It abstracts complex hardware details, allowing developers to focus on logic rather than memory management.
+•	Multi-Paradigm: Python supports functional, procedural, and object-oriented programming (OOP) structures.
+•	Extensive Ecosystem: The Python Package Index (PyPI) hosts hundreds of thousands of libraries (like NumPy, Pandas, and TensorFlow), making it the gold standard for Data Science, Artificial Intelligence, and Automation.
+
+II. The Anaconda Distribution: An Industry Standard
+For beginners and data scientists, installing Python standalone can often lead to "dependency hell"—a situation where different projects require conflicting versions of software libraries. Anaconda solves this by acting as a robust package manager and environment handler.
+Key Features and Advantages of Anaconda:
+•	All-in-One Suite: Upon installation, Anaconda automatically bundles the Python interpreter with over 1,500 scientific packages, including Jupyter Notebook, Spyder, and Orange.
+•	Conda Package Manager: It uses the conda tool to easily install, run, and update complex software dependencies.
+•	Virtual Environments: Anaconda allows users to create isolated "sandboxes" (environments). This means you can run Python 3.8 for one project and Python 3.11 for another on the same machine without conflict.
+•	Platform Agnostic: It provides a consistent experience across Windows, macOS, and Linux, ensuring that code developed in one environment is reproducible in another.
+
+III. Understanding the Development Environments
+1.	Jupyter Notebook: A web-based interactive computational environment. It allows you to combine live code, equations, visualizations, and narrative text (Markdown) in a single document (.ipynb).
+2.	Google Colab: A cloud-based version of Jupyter provided by Google. It requires no local setup and provides free access to computing resources like GPUs, making it ideal for heavy Machine Learning tasks.
+3.	Spyder: A powerful scientific IDE included in Anaconda, designed specifically for data analysis with features like a variable explorer and advanced debugging tools.
+________________________________________
+
+4. Conclusion
+By the end of this study, you will have a fully functional local development environment and the necessary conceptual framework to begin writing and deploying Python-based solutions
