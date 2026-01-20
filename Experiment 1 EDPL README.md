@@ -1,9 +1,9 @@
 # Experiment–1
 
-#Bhavya Pandya
-#25070123139
-#EDP Lab 
-#E&TC A1
+# Bhavya Pandya
+# 25070123139
+# EDP Lab 
+# E&TC A1
 
 #Introduction to Python Programming and Installation of Jupyter Notebook Using Anaconda
 ________________________________________
