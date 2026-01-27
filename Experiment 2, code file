@@ -1,0 +1,1047 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bh4vyaaaa/Basics-of-Python-E-TC-A1/blob/main/Experiment%202%2C%20code%20file\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "dpQELL7RFyet"
+      },
+      "outputs": [],
+      "source": []
+    },
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "48jR0Vg9GZ-s"
+      },
+      "source": [
+        "# EDA using Python\n",
+        "## Experiment - 2\n",
+        "### Python Basics"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zbpZJ4ZDGc21",
+        "outputId": "a2a885b8-b727-4c7f-86cb-a58c551ccc08"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "I am Learning Python\n"
+          ]
+        }
+      ],
+      "source": [
+        "# First Program\n",
+        "print (\"I am Learning Python\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IYRXjG4LG9nl",
+        "outputId": "240a1e9c-c3ec-4ae2-e472-733def25ddc6"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "I am at Symbiosis\n"
+          ]
+        }
+      ],
+      "source": [
+        "print ('I am at Symbiosis')"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p0oIguelHUqD",
+        "outputId": "bde3edd4-e474-4336-9f04-cbead272738d"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello,Welcome to Python Programming\n"
+          ]
+        }
+      ],
+      "source": [
+        "# FIRST PYTHON PROGRAM/STRING\n",
+        "print (\"Hello,Welcome to Python Programming\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5xkhn_XezQlJ",
+        "outputId": "03057b6a-d553-4d04-b6d0-82ec75a615ab"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = \"Hello\"\n",
+        "print (a)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YxS0YIEIzV_N",
+        "outputId": "e03648d7-a47f-43f1-f405-6824a4394605"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello\n",
+            "My Name is Bhavya\n",
+            "I study in SIT Pune\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello\"); print(\"My Name is Bhavya\"); print(\"I study in SIT Pune\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4VgjOsod0YkB",
+        "outputId": "7c276298-ebcf-40ac-dd01-081dbcb775cd"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "python is easier than C\n",
+            "Really\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"python is easier than C\"); print(\"Really\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XXZiQImT0qxH",
+        "outputId": "398a3fea-ba12-4128-f35c-dbc7ee370237"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Hello Python Compiler! I will print on same line.\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello Python Compiler\",end=\"! \")\n",
+        "print (\"I will print on same line.\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "omiCCrX11tMD",
+        "outputId": "26729fbc-26e7-4a52-8ea6-b70c9617cf0b"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "3\n",
+            "67\n",
+            "69420\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Print Numbers\n",
+        "a = 3\n",
+        "print(a)\n",
+        "print(67)\n",
+        "print(69420)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "P8bPe-dW1-DT",
+        "outputId": "1811aad3-4eda-4ae1-8a74-ebb6d4bacf11"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "5\n",
+            "Python Skills\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Variables\n",
+        "x=5\n",
+        "y=\"Python Skills\"\n",
+        "print(x)\n",
+        "print(y)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "r16AKDp12Kvz",
+        "outputId": "2b1147d4-6b38-4f28-db2f-03f2f650247e"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Orange\n",
+            "Banana\n",
+            "Cherry\n"
+          ]
+        }
+      ],
+      "source": [
+        "#Many Values to Multiple Variables\n",
+        "x,y,z = \"Orange\",\"Banana\",\"Cherry\"\n",
+        "print(x)\n",
+        "print(y)\n",
+        "print(z)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zf2NU9FR2t4A",
+        "outputId": "4b307ae7-a406-4866-ecb0-2b3fc27f6438"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Subtraction= 3\n",
+            "Multiplication= 18\n",
+            "Division= 2.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "a=6\n",
+        "b=3\n",
+        "print(\"Subtraction=\",a-b)\n",
+        "print(\"Multiplication=\",a*b)\n",
+        "print(\"Division=\",a/b)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TjyPQX_r4hl_",
+        "outputId": "25258f76-1200-417f-a30f-aafe71024abd"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "<class 'int'>\n",
+            "<class 'float'>\n",
+            "<class 'str'>\n",
+            "<class 'bool'>\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Understanding Data Types\n",
+        "x=12\n",
+        "y=77.67\n",
+        "z=\"Python skillz\"\n",
+        "Mcstan = True\n",
+        "print(type(x))\n",
+        "print(type(y))\n",
+        "print(type(z))\n",
+        "print(type(Mcstan))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zrmc7SIr6Gr6",
+        "outputId": "e128fafc-71e3-4de7-d625-20254a1fb665"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter Your PRN :-130\n",
+            "hello student! 130\n"
+          ]
+        }
+      ],
+      "source": [
+        "# How to take input from user\n",
+        "name = input(\"Enter Your PRN :-\")\n",
+        "print(\"hello student!\",name)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IkT-TigY7Hmt",
+        "outputId": "da7f6678-7c3d-4c63-83cc-367aa7decff9"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter A number1\n"
+          ]
+        }
+      ],
+      "source": [
+        "Number = input(\"Enter A number\")"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XrpYaRwZ7oY6",
+        "outputId": "007dac8e-9a19-42d0-d386-1d16c5624f52"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "ENTER FIRST NUMBER:-5\n",
+            "ENTER SECOND NUMBER:-8\n",
+            "The Addition of a&b is = 13\n",
+            "The Multiplication of a&b is = 40\n",
+            "The Subtraction of a&b is = -3\n",
+            "The Division of a&b is = 0.625\n"
+          ]
+        }
+      ],
+      "source": [
+        "# SIMPLE CALCULATOR\n",
+        "a = int(input(\"ENTER FIRST NUMBER:-\"))\n",
+        "b = int(input(\"ENTER SECOND NUMBER:-\"))\n",
+        "print(\"The Addition of a&b is =\",a+b)\n",
+        "print(\"The Multiplication of a&b is =\",a*b)\n",
+        "print(\"The Subtraction of a&b is =\",a-b)\n",
+        "print(\"The Division of a&b is =\",a/b)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dDzI7JtE7zkM",
+        "outputId": "c99042d6-a199-4c6d-e9c4-91f7ad8b7534"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter Marks of FEEE80\n",
+            "Enter Marks of ECSF90\n",
+            "Enter Marks of CLA67\n",
+            "Enter Marks of CRT88\n",
+            "Enter Marks of TINKER56\n",
+            "Your Average Marks:- 76.2\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Simple Marks Calculator\n",
+        "Marks1 = int(input((\"Enter Marks of FEEE\")))\n",
+        "Marks2 = int(input((\"Enter Marks of ECSF\")))\n",
+        "Marks3 = int(input((\"Enter Marks of CLA\")))\n",
+        "Marks4 = int(input((\"Enter Marks of CRT\")))\n",
+        "Marks5 = int(input((\"Enter Marks of TINKER\")))\n",
+        "Sum = Marks1+Marks2+Marks3+Marks4+Marks5\n",
+        "Avg = Sum/5\n",
+        "print(\"Your Average Marks:-\",Avg)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fmkZPts-9a_i",
+        "outputId": "e0409db5-8b3e-4cf5-f7fd-221ff231f41a"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter Length of Rectangle30\n",
+            "Enter Breadth of Rectangle40\n",
+            "The Area of The Rectangle:-  1200\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Area of Rectangle\n",
+        "Length = int(input(\"Enter Length of Rectangle\"))\n",
+        "Breadth = int(input(\"Enter Breadth of Rectangle\"))\n",
+        "Area=Length*Breadth\n",
+        "print (\"The Area of The Rectangle:- \",Area)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "koGsYpeVBRJ3",
+        "outputId": "30713e3a-902e-409a-e221-efe56fdbc153"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Enter Radius of The Circle5\n",
+            "The Area of Circle :- 78.5\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Area Of Circle\n",
+        "Radius=float(input(\"Enter Radius of The Circle\"))\n",
+        "Area= 3.14*Radius*Radius\n",
+        "print(\"The Area of Circle :-\",Area)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iIAtEvRMCbQb",
+        "outputId": "2b1a6b9c-9dc8-4ddd-e9c3-b7c7714cecbf"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Butter', 'Jam', 'Bread']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Arrays In Python\n",
+        "# Allow Duplicates\n",
+        "thislist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\"]\n",
+        "print(thislist)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "k89796dF2uf6",
+        "outputId": "61399d0f-bc8f-4ac8-babf-1f615b35d634"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "4\n"
+          ]
+        }
+      ],
+      "source": [
+        "# List Length\n",
+        "thislist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\"]\n",
+        "print(len(thislist))"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sA3I1F-m4H40",
+        "outputId": "880d4c22-0ad7-4f58-ac5a-574328351d0c"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "['xyz', 34, False, 67, 'Female', 69.42, (2+3j)]"
+            ]
+          },
+          "execution_count": 7,
+          "metadata": {},
+          "output_type": "execute_result"
+        }
+      ],
+      "source": [
+        "# List with strings, integers, and boolean values:-\n",
+        "list1 = [\"xyz\", 34 , False , 67 , \"Female\", 69.420 , 2+3j]\n",
+        "list1"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "XU_500vR4vzF",
+        "outputId": "de19c741-d03e-4ae5-c100-139a5e684ac2"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Jam\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Access Items\n",
+        "thislist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\"]\n",
+        "print(thislist[2])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p3znqjC05cEj",
+        "outputId": "9b4d4e4c-f52e-4dbe-9560-1fae836f77dd"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "Jam\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Reverse/Negatice Indexing\n",
+        "thislist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\"]\n",
+        "print(thislist[-2])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ib-WsPIU6B_v",
+        "outputId": "d6e553ea-ca37-47a5-e040-0fc589154f4d"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Mango Jam', 'Mayo', 'Ketchup']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# SLicing\n",
+        "Grocerylist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\" , \"Mango Jam\" , \"Mayo\" , \"Ketchup\" , \"BBQ\" , \"Yogurt\"]\n",
+        "print(Grocerylist[3:7])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qWxfZf9P6-Ao",
+        "outputId": "5b2d0189-99a7-49f5-898d-365cd2dd6808"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Butter', 'Jam', 'Bread', 'Mango Jam']\n"
+          ]
+        }
+      ],
+      "source": [
+        "Grocerylist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\" , \"Mango Jam\" , \"Mayo\" , \"Ketchup\" , \"BBQ\" , \"Yogurt\"]\n",
+        "print(Grocerylist[:5])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "quZRu4IW9P1u",
+        "outputId": "251abb86-59ff-460f-96c0-37a6ba06bdaa"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Unsalted Butter', 'Jam', 'Bread', 'Mango Jam', 'Mayo', 'Ketchup', 'BBQ', 'Yogurt']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Change Item Value\n",
+        "Grocerylist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\" , \"Mango Jam\" , \"Mayo\" , \"Ketchup\" , \"BBQ\" , \"Yogurt\"]\n",
+        "Grocerylist[1] = \"Unsalted Butter\"\n",
+        "print(Grocerylist)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "F1v44eSA_yy-",
+        "outputId": "94684ba0-0c26-45e5-adfc-afc6d286dd92"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Ghee', 'Butter', 'Jam', 'Bread', 'Mango Jam', 'Mayo', 'Ketchup', 'BBQ', 'Yogurt']\n"
+          ]
+        }
+      ],
+      "source": [
+        "Grocerylist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\" , \"Mango Jam\" , \"Mayo\" , \"Ketchup\" , \"BBQ\" , \"Yogurt\"]\n",
+        "Grocerylist.insert(1,\"Ghee\")\n",
+        "print(Grocerylist)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "dgjjTyxaBPWG",
+        "outputId": "a2feebe6-d684-4465-910b-50ee612deab3"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "['Bread', 'Butter', 'Jam', 'Bread', 'Mango Jam', 'Mayo', 'Ketchup', 'BBQ', 'Yogurt', 'Pen', 'paper', 'Book']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# Extend List\n",
+        "Grocerylist = [\"Bread\" , \"Butter\" , \"Jam\", \"Bread\" , \"Mango Jam\" , \"Mayo\" , \"Ketchup\" , \"BBQ\" , \"Yogurt\"]\n",
+        "Stationarylist = [\"Pen\", \"paper\" , \"Book\"]\n",
+        "Grocerylist.extend(Stationarylist)\n",
+        "print(Grocerylist)"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "G0kF88IjBg9h",
+        "outputId": "6a8876ab-c561-4fbb-ab4b-0333603a4123"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "6"
+            ]
+          },
+          "execution_count": 24,
+          "metadata": {},
+          "output_type": "execute_result"
+        }
+      ],
+      "source": [
+        "# Length of list\n",
+        "n = len ([3,4,5,6,7,8])\n",
+        "n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_sY2lJU_Bswz",
+        "outputId": "4f89adc3-953e-45ae-e952-43b0d26e068d"
+      },
+      "outputs": [
+        {
+          "data": {
+            "text/plain": [
+              "True"
+            ]
+          },
+          "execution_count": 25,
+          "metadata": {},
+          "output_type": "execute_result"
+        }
+      ],
+      "source": [
+        "# Searching Items\n",
+        "9 in [5,6,7,8,9]"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "xut0tIwtBzvu",
+        "outputId": "87093688-ec4d-4f4b-c7e4-1fb282e2fcb6"
+      },
+      "outputs": [
+        {
+          "ename": "SyntaxError",
+          "evalue": "unterminated string literal (detected at line 4) (ipython-input-4258517276.py, line 4)",
+          "output_type": "error",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-4258517276.py\"\u001b[0;36m, line \u001b[0;32m4\u001b[0m\n\u001b[0;31m    \"Total Marks\u001b[0m\n\u001b[0m    ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m unterminated string literal (detected at line 4)\n"
+          ]
+        }
+      ],
+      "source": [
+        "marks =  [78,85,90,66,88]\n",
+        "\"Maximum Marks\"\n",
+        "\"Minimum Marks\"\n",
+        "\"Total Marks\n",
+        "\"Number of Students\""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pSdp1RxRCya7",
+        "outputId": "713ab129-48c6-4b26-d771-4e9dd028fcd9"
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": [
+            "8\n",
+            "1\n",
+            "26\n",
+            "6\n"
+          ]
+        }
+      ],
+      "source": [
+        "numbers = [3,7,8,5,1,2,]\n",
+        "print(max(numbers))\n",
+        "print(min(numbers))\n",
+        "print(sum(numbers))\n",
+        "print(len(numbers))\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bi1kf0d6FJ_6",
+        "outputId": "cc7deae1-063a-4a2f-c823-33a4c4a4e8e8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Create your initial list\n",
+            "Enter item 1: bread \n",
+            "Enter item 2: butter\n",
+            "Enter item 3: milk\n",
+            "List now has: ['bread ', 'butter', 'milk']\n",
+            "Add one more item: ice cream\n",
+            "Updated list: ['bread ', 'butter', 'milk', 'ice cream']\n",
+            "Enter item to remove: ice cream\n",
+            "Final Shopping List:\n",
+            "Item at index 0: bread \n",
+            "Item at index 1: butter\n",
+            "Item at index 2: milk\n",
+            "Full final list: ['bread ', 'butter', 'milk']\n"
+          ]
+        }
+      ],
+      "source": [
+        "# 1. Create a grocery list with user input\n",
+        "print(\"Create your initial list\")\n",
+        "item1 = input(\"Enter item 1: \")\n",
+        "item2 = input(\"Enter item 2: \")\n",
+        "item3 = input(\"Enter item 3: \")\n",
+        "grocerylist = [item1, item2, item3]\n",
+        "print(\"List now has:\", grocerylist)\n",
+        "newitem = input(\"Add one more item: \")\n",
+        "grocerylist.append(newitem)\n",
+        "print(\"Updated list:\", grocerylist)\n",
+        "removeitem = input(\"Enter item to remove: \")\n",
+        "grocerylist.remove(removeitem)\n",
+        "print(\"Final Shopping List:\")\n",
+        "print(\"Item at index 0:\", grocerylist[0])\n",
+        "print(\"Item at index 1:\", grocerylist[1])\n",
+        "print(\"Item at index 2:\", grocerylist[2])\n",
+        "print(\"Full final list:\", grocerylist )"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0pXJp8PFFoUo",
+        "outputId": "ea1bd48d-764d-4a0d-f828-91690d91e393"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[20, 30]\n",
+            "[20, 30]\n",
+            "[30, 50]\n",
+            "[20]\n"
+          ]
+        }
+      ],
+      "source": [
+        "list1 = [10, 20, 30, 40, 50, 60]\n",
+        "print (list1[1:3])\n",
+        "print (list1[1:3:1])\n",
+        "print (list1[2:5:2])\n",
+        "print (list1[1:4:3])"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Enter Your Today's Expenses\")\n",
+        "exp1 = float(input(\"Enter expense 1: \"))\n",
+        "exp2 = float(input(\"Enter expense 2: \"))\n",
+        "exp3 = float(input(\"Enter expense 3: \"))\n",
+        "\n",
+        "expenses_list = [exp1, exp2, exp3]\n",
+        "\n",
+        "total_spent = sum(expenses_list)\n",
+        "average_spent = total_spent / len(expenses_list)\n",
+        "lowest_expense = min(expenses_list)\n",
+        "highest_expense = max(expenses_list)\n",
+        "\n",
+        "print(\"Total Spent:-\", total_spent)\n",
+        "print(\"Average Spent:-\", average_spent)\n",
+        "print(\"Lowest Expense:-\", lowest_expense)\n",
+        "print(\"Highest Expense:-\", highest_expense)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TQoV35vX6Q3W",
+        "outputId": "68c56a6a-410a-4761-f93d-abe193563ddb"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter Your Today's Expenses\n",
+            "Enter expense 1: 60\n",
+            "Enter expense 2: 70\n",
+            "Enter expense 3: 80\n",
+            "Total Spent:- 210.0\n",
+            "Average Spent:- 70.0\n",
+            "Lowest Expense:- 60.0\n",
+            "Highest Expense:- 80.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "XJaGr2hT8WLG"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOxuiDb0tw4aCHYhzGOS8hx",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "display_name": "Python 3",
+      "name": "python3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 0
+}
