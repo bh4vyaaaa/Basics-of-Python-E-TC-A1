@@ -1,0 +1,820 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOBpxL3FTHVTZ7SHAxNcByy",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bh4vyaaaa/Basics-of-Python-E-TC-A1/blob/main/Experiment%205%2C%20EDP\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### EXPERIMENT - 5\n",
+        "## STUDY OF SETS & DICTIONARIES IN PYTHON\n",
+        "### PRN - 25070123139\n",
+        "### E&TC A1"
+      ],
+      "metadata": {
+        "id": "DixqRktI51i5"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Creation Of Set (ITEMS ARE PRINTED IN RANDOM ORDER)\n",
+        "thisset = {\"Symbiosis\", \"Flame\", \"IIT\"}\n",
+        "print(thisset)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yVaHKBJO59kf",
+        "outputId": "043375ae-616c-4cd0-df05-054746404165"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'IIT', 'Symbiosis', 'Flame'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Duplicates are not allowed\n",
+        "thisset = {\"Symbiosis\", \"Flame\", \"IIT\", \"Symbiosis\", \"Flame\", \"IIT\", True, 1, 2}\n",
+        "print(thisset)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wMqk8-9Y7Oyv",
+        "outputId": "10a55e9b-1861-4eef-8f73-b61286d24416"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'IIT', True, 2, 'Symbiosis', 'Flame'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Duplicates are not allowed\n",
+        "thisset = {\"Symbiosis\", \"Flame\", \"IIT\", \"Symbiosis\", \"Flame\", \"IIT\", False, 0 , 2}\n",
+        "print(thisset)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jE5AMKRo8vxV",
+        "outputId": "7aa933e1-3051-4718-a046-b29c4b29064b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'IIT', False, 2, 'Symbiosis', 'Flame'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# A set with stirngs, integrers and boolean values:-\n",
+        "seti = {\"xyz,\" , \"46\" , True , 'Female' , 16.5}\n",
+        "print(seti)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ETaiRSib9LEy",
+        "outputId": "161c6219-75b0-4449-c77f-801338772e4c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{16.5, True, 'Female', '46', 'xyz,'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "set = {\"xyz\" , \"46\" , True , 'Female' , 16.5}\n",
+        "print(\"xyz\" in set)\n",
+        "print(\"Pushpak\" in set)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ZN8cpVsh9-VU",
+        "outputId": "e1bcd4a5-6c0a-4b95-e608-f6ffe6131e27"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n",
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Once a set is created, you cannot replace its items\n",
+        "thisset = {\"Symbiosis\", \"Flame\", \"IIT\", \"Symbiosis\",}\n",
+        "thisset.remove(\"IIT\")\n",
+        "print(thisset)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uigMpXcg-ehD",
+        "outputId": "51f9a4bb-bf1e-47e5-9eee-d41c5e7c0c5b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'Symbiosis', 'Flame'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Set Operation\n",
+        "A = {1, 2, 3, 4, 5}\n",
+        "B = {4, 5, 6, 7, 8}\n",
+        "print(\"Union :\", A | B)\n",
+        "print(\"Intersection :\", A & B)\n",
+        "print(\"Difference :\", A - B)\n",
+        "print(\"Symmetric Difference\", A ^ B)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NVb3KDP9Airw",
+        "outputId": "8e1c9b9c-44d1-476c-c71e-4f20869e1b47"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Union : {1, 2, 3, 4, 5, 6, 7, 8}\n",
+            "Intersection : {4, 5}\n",
+            "Difference : {1, 2, 3}\n",
+            "Symmetric Difference {1, 2, 3, 6, 7, 8}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "### FROZEN SETS"
+      ],
+      "metadata": {
+        "id": "v0gufEN1DJ5m"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# frozen sets\n",
+        "x = frozenset([1, 2, 3, 4])\n",
+        "print(x)\n",
+        "print(type(x))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_8xN3dlrDNaV",
+        "outputId": "7f544b37-b1fe-4d78-ee7e-0e22d8441804"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "frozenset({1, 2, 3, 4})\n",
+            "<class 'frozenset'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Adding or Removal of elements of frozen sets is not allowed\n",
+        "x = frozenset([1, 2, 3, 4])\n",
+        "x.remove(\"2\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 176
+        },
+        "id": "2OOPT4ZnDXS2",
+        "outputId": "be9f642d-3959-4980-ef43-41cfa2d69bea"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "AttributeError",
+          "evalue": "'frozenset' object has no attribute 'remove'",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m                            Traceback (most recent call last)",
+            "\u001b[0;32m/tmp/ipython-input-1589339431.py\u001b[0m in \u001b[0;36m<cell line: 0>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      1\u001b[0m \u001b[0;31m# Adding or Removal of elements of frozen sets is not allowed\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      2\u001b[0m \u001b[0mx\u001b[0m \u001b[0;34m=\u001b[0m \u001b[0mfrozenset\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m[\u001b[0m\u001b[0;36m1\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m2\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m3\u001b[0m\u001b[0;34m,\u001b[0m \u001b[0;36m4\u001b[0m\u001b[0;34m]\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 3\u001b[0;31m \u001b[0mx\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0mremove\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m\"2\"\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m",
+            "\u001b[0;31mAttributeError\u001b[0m: 'frozenset' object has no attribute 'remove'"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ab3e3d56",
+        "outputId": "fedfe25c-e836-4f1b-bb6c-3e4775624b63"
+      },
+      "source": [
+        "participants_list =[\"Riya\", \"Aman\", \"Priya\", \"Riya\", \"Ankit\",\"Meera\", \"Priya\"]\n",
+        "unique_participants = (participants_list)\n",
+        "print(\"Unique participants:\", unique_participants)\n",
+        "print(\"Total number of unique participants:\", len(unique_participants))"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Unique participants: ['Riya', 'Aman', 'Priya', 'Riya', 'Ankit', 'Meera', 'Priya']\n",
+            "Total number of unique participants: 7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Two students choose elective subjects, find common subjects chosen using set operations\n",
+        "student1_electives = {\"Mathematics\", \"Physics\", \"Chemistry\", \"Computer Science\", \"English\"}\n",
+        "student2_electives = {\"Physics\", \"Biology\", \"Computer Science\", \"History\", \"English\"}\n",
+        "print(f\"Student 1's electives: {student1_electives}\")\n",
+        "print(f\"Student 2's electives: {student2_electives}\")\n",
+        "common_electives = student1_electives.intersection(student2_electives)\n",
+        "print(f\"Common elective subjects: {common_electives}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "t1zd0jcFHv-g",
+        "outputId": "4ffed174-03f5-4da6-9128-3bf1f41106e1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Student 1's electives: {'Chemistry', 'Mathematics', 'English', 'Computer Science', 'Physics'}\n",
+            "Student 2's electives: {'Computer Science', 'History', 'Biology', 'English', 'Physics'}\n",
+            "Common elective subjects: {'Computer Science', 'Physics', 'English'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# One student Is from Cricket club one student is in Football Club, find students in both clubs and students only in one club\n",
+        "cricket_players = {\"Virat\", \"Rohit\", \"Dhoni\", \"Raina\", \"Jadeja\", \"Messi\"}\n",
+        "football_players = {\"Messi\", \"Ronaldo\", \"Neymar\", \"Mbappe\", \"Rooney\", \"Dhoni\"}\n",
+        "print(f\"Cricket players: {cricket_players}\")\n",
+        "print(f\"Football players: {football_players}\")\n",
+        "students_in_both = cricket_players.intersection(football_players)\n",
+        "print(f\"Students in both clubs: {students_in_both}\")\n",
+        "students_in_one_club_only = cricket_players.symmetric_difference(football_players)\n",
+        "print(f\"Students in only one club: {students_in_one_club_only}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jowzvlm_IFGs",
+        "outputId": "19078bf4-1920-49af-8fc7-cb473412d426"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Cricket players: {'Virat', 'Rohit', 'Dhoni', 'Jadeja', 'Messi', 'Raina'}\n",
+            "Football players: {'Dhoni', 'Neymar', 'Rooney', 'Messi', 'Ronaldo', 'Mbappe'}\n",
+            "Students in both clubs: {'Dhoni', 'Messi'}\n",
+            "Students in only one club: {'Jadeja', 'Rooney', 'Raina', 'Virat', 'Neymar', 'Rohit', 'Mbappe', 'Ronaldo'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "courses = {\"ETC101\", \"ETC102\" , \"ETC103\"}\n",
+        "courses.discard(\"ETC103\")\n",
+        "courses.add(\"ETC104\")\n",
+        "print(courses)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "q7B3GiTCLAop",
+        "outputId": "f6a1825d-e05f-4ee4-f95d-872aa3cb46a9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'ETC101', 'ETC102', 'ETC104'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "446fb322",
+        "outputId": "08120cdb-fdd7-454e-d7ca-9f4b5dfba147"
+      },
+      "source": [
+        "all_students = {\"Alice\", \"Bob\", \"Charlie\", \"David\", \"Eve\", \"Frank\", \"Grace\"}\n",
+        "present_students = {\"Alice\", \"Charlie\", \"Eve\", \"Grace\"}\n",
+        "print(f\"All students: {all_students}\")\n",
+        "print(f\"Present students: {present_students}\")\n",
+        "absent_students = all_students - present_students\n",
+        "print(f\"Absent students: {absent_students}\")"
+      ],
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "All students: {'Frank', 'Grace', 'Alice', 'Bob', 'David', 'Eve', 'Charlie'}\n",
+            "Present students: {'Grace', 'Eve', 'Alice', 'Charlie'}\n",
+            "Absent students: {'Frank', 'Bob', 'David'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# DICTIONARY:-\n",
+        "\n",
+        "> Used to store data in key:value pairs\n",
+        "its collection is ordered*, changable and do not allow duplicates\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "gtffF3YM8dmV"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Creation of Dictionary\n",
+        "thisdict = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026\n",
+        "}\n",
+        "print(thisdict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pYCNEPXG8f7C",
+        "outputId": "430f7a10-b0ad-4e24-9232-ac315d759c10"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'brand': 'Aprilia', 'Model': 'Tuono', 'year': 2026}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Takes the latest input when it has a choice between two values, does not allow duplicates.\n",
+        "thisdict = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026,\n",
+        "    \"year\" : 2024\n",
+        "}\n",
+        "print(thisdict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OxVq3FNN9I1_",
+        "outputId": "cf29d28c-b82c-4651-fbf8-55b72a24c745"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'brand': 'Aprilia', 'Model': 'Tuono', 'year': 2024}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Length of Dictionary\n",
+        "thisdict = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026\n",
+        "}\n",
+        "print(thisdict)\n",
+        "print(len(thisdict))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "K_PkSX-G9rOR",
+        "outputId": "b70eeadd-7590-44b1-c872-dd7dc68f9830"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "{'brand': 'Aprilia', 'Model': 'Tuono', 'year': 2026}\n",
+            "3\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Changing/Adding Value in the Dictionary\n",
+        "bikes = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026\n",
+        "}\n",
+        "bikes[\"color\"] = \"White\"\n",
+        "x = bikes.values()\n",
+        "print(x)\n",
+        "print(bikes)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QKI714jP98-b",
+        "outputId": "65d2e354-dff6-4e6a-8650-95e8828f0127"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "dict_values(['Aprilia', 'Tuono', 2026, 'White'])\n",
+            "{'brand': 'Aprilia', 'Model': 'Tuono', 'year': 2026, 'color': 'White'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Creation of Dictionary\n",
+        "thisdict = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026\n",
+        "}\n",
+        "print(\"Brand\", thisdict[\"brand\"])\n",
+        "print(\"Model\", thisdict[\"Model\"])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "CMjeajnb-llZ",
+        "outputId": "c0ff5324-6f21-4897-8871-df22fe026eea"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Brand Aprilia\n",
+            "Model Tuono\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Adding And updating Values\n",
+        "thisdict = {\n",
+        "    \"brand\": \"Aprilia\",\n",
+        "    \"Model\" : \"Tuono\",\n",
+        "    \"year\" : 2026\n",
+        "}\n",
+        "thisdict[\"year\" = 2024]\n",
+        "         print(thisdict)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 106
+        },
+        "id": "TKPkYY9r_Rny",
+        "outputId": "c9e9a02f-c766-4928-fd01-8f8535c716b0"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "error",
+          "ename": "SyntaxError",
+          "evalue": "cannot assign to literal here. Maybe you meant '==' instead of '='? (ipython-input-4244441128.py, line 7)",
+          "traceback": [
+            "\u001b[0;36m  File \u001b[0;32m\"/tmp/ipython-input-4244441128.py\"\u001b[0;36m, line \u001b[0;32m7\u001b[0m\n\u001b[0;31m    thisdict[\"year\" = 2024]\u001b[0m\n\u001b[0m             ^\u001b[0m\n\u001b[0;31mSyntaxError\u001b[0m\u001b[0;31m:\u001b[0m cannot assign to literal here. Maybe you meant '==' instead of '='?\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Removing Elements\n",
+        "bikes.pop(\"year\")\n",
+        "print(\"After Removal\", bikes)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "UK7hKQKXANFc",
+        "outputId": "2aa98d9f-a6ce-4b8e-ba37-cbaf58b79eaf"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "After Removal {'brand': 'Aprilia', 'Model': 'Tuono', 'color': 'White'}\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "I8X4Tr5JBOGi"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "137d0362",
+        "outputId": "4de33584-e92c-494e-842c-00f0a59340e9"
+      },
+      "source": [
+        "products = {\n",
+        "    \"Laptop\": 1200,\n",
+        "    \"Mouse\": 25,\n",
+        "    \"Keyboard\": 75,\n",
+        "    \"Monitor\": 300\n",
+        "}\n",
+        "print(\"Original product prices:\", products)\n",
+        "print(\"New Updated Prices\")\n",
+        "product_to_update = \"Laptop\"\n",
+        "new_price = 1150\n",
+        "print(product_to_update, new_price)\n",
+        "product_to_update2 = \"Mouse\"\n",
+        "new_price2 = 50\n",
+        "print(product_to_update2, new_price2)\n",
+        "product_to_update3 = \"Monitor\"\n",
+        "new_price3 = 350\n",
+        "print(product_to_update3, new_price3)"
+      ],
+      "execution_count": 25,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Original product prices: {'Laptop': 1200, 'Mouse': 25, 'Keyboard': 75, 'Monitor': 300}\n",
+            "New Updated Prices\n",
+            "Laptop 1150\n",
+            "Mouse 50\n",
+            "Monitor 350\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "marks = {\n",
+        "    \"Alice\": 85,\n",
+        "    \"Bob\": 92,\n",
+        "    \"Charlie\": 78,\n",
+        "    \"David\": 95,\n",
+        "    \"Eve\": 88\n",
+        "}\n",
+        "name = input(\"Enter the name of the student: \")\n",
+        "print(marks.get(name, \"Student not found\"))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "3n8Vo0CmCD8i",
+        "outputId": "4bc6ba34-9b37-4cd0-9edf-48030ff7b0c4"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter the name of the student: Tommy\n",
+            "Student not found\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Credentials = {\n",
+        "    \"Bob\": \"Bones\",\n",
+        "    \"Oggy\": \"Snacks\",\n",
+        "    \"Jack\": \"Pickup\"\n",
+        "}\n",
+        "username = input(\"Enter your username: \")\n",
+        "password = input(\"Enter your password: \")\n",
+        "print(Credentials.get(username,\"Invalid Password\"))\n",
+        "if username in Credentials and Credentials[username] == password:\n",
+        "    print(\"Login successful!\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RfHB_B3tD2aL",
+        "outputId": "90eae55d-b95a-44a4-c89c-b9a961030bee"
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your username: Bob\n",
+            "Enter your password: Bones\n",
+            "Bones\n",
+            "Login successful!\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Marks = {\n",
+        "  \"steve\": 39,\n",
+        "  \"Alex\": 50,\n",
+        "  \"Sam\": 60\n",
+        "}\n",
+        "print(\"Maximum Marks Scored By:-\", max(Marks, key=Marks.get))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "1z2oCtWHFfGK",
+        "outputId": "f1e8f5e3-df95-4a19-ddeb-7626454aae5e"
+      },
+      "execution_count": 44,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Maximum Marks Scored By:- Sam\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "emDj2RQTIHtG"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
